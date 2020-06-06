@@ -12,29 +12,6 @@
   <a target="_blank" href="https://microbadger.com/images/theyahya/sherlock"><img alt="docker image" src="https://images.microbadger.com/badges/version/theyahya/sherlock.svg"></a>
 </p>
 
-<p align="center">
-  <a href="#demo">Demo</a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#installation">Installation</a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#usage">Usage</a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#docker-notes">Docker Notes</a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#adding-new-sites">Adding New Sites</a>
-</p>
-
-<p align="center">
-<a href="https://asciinema.org/a/223115">
-<img src="./images/sherlock_preview.gif"/>
-</a>
-</p>
-
-## Demo
-
-Use this link to test Sherlock directly in your browser:
-https://elody.com/scenario/plan/16/
-
 ## Installation
 
 **NOTE**: Python 3.6 or higher is required.
