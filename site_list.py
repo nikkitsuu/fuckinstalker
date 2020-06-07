@@ -1,6 +1,3 @@
-"""Sherlock: Supported Site Listing
-This module generates the listing of supported sites.
-"""
 import json
 import sys
 import requests
@@ -12,16 +9,13 @@ from argparse import ArgumentParser, RawDescriptionHelpFormatter
 pool = list()
 
 def get_rank(domain_to_query, dest):
-
-    #Retrieve ranking data via alexa API
+    
     url = f"http://data.alexa.com/data?cli=10&url={domain_to_query}"
     xml_data = requests.get(url).text
     root = ET.fromstring(xml_data)
     try:
-        #Get ranking for this site.
         dest['rank'] = int(root.find(".//REACH").attrib["RANK"])
     except:
-        #We did not find the rank for some reason.
         print(f"Error retrieving rank information for '{domain_to_query}'")
         print(f"     Returned XML is |{xml_data}|")
 
