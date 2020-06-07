@@ -18,7 +18,7 @@ from notify import QueryNotifyPrint
 from sites  import SitesInformation
 
 module_name = "Sherlock: Find Usernames Across Social Networks"
-__version__ = "0.12.2"
+__version__ = "0.00.0"
 
 
 
@@ -87,7 +87,6 @@ def sherlock(username, site_data, query_notify,
         underlying_request = TorRequest()
         underlying_session = underlying_request.session
     else:
-        #Normal requests
         underlying_session = requests.session()
         underlying_request = requests.Request()
     if len(site_data) >= 20:
@@ -336,8 +335,6 @@ def main():
                         help="Browse to all results on default bowser.")
 
     args = parser.parse_args()
-
-
 
     if args.tor and (args.proxy is not None):
         raise Exception("Tor and Proxy cannot be set at the same time.")
