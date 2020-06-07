@@ -7,9 +7,9 @@ wanna stalk people? bet. here you go mfs ! yall insane but so am i lmfao
 
 3) type in the command "git clone https://github.com/nikkitsuu/stalkmfs.git"
 
-4) type in "-m pip install -r requirements.txt" so you can run this shit
+4) type in "cd sherlock" to enter the directory 
 
-5) type in "cd sherlock" to enter the directory
+5) type in "-m pip install -r requirements.txt" so you can run this shit
 
 6) type in "python3 sherlock [insert someones name/username]"
 
